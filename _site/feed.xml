@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-11T16:46:43+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Welcome To My Page</title><subtitle>Backend Developer | AI Enthusiast</subtitle><author><name>Trần Đức Tân</name><email>tantran1011@gmail.com</email></author><entry><title type="html">🌿 LeafCareBot - AI-powered Plant Diagnosis and Chatbot</title><link href="http://localhost:4000/projects/2025/05/11/update-leafcarebot-project.html" rel="alternate" type="text/html" title="🌿 LeafCareBot - AI-powered Plant Diagnosis and Chatbot" /><published>2025-05-11T00:00:00+07:00</published><updated>2025-05-11T00:00:00+07:00</updated><id>http://localhost:4000/projects/2025/05/11/update-leafcarebot-project</id><content type="html" xml:base="http://localhost:4000/projects/2025/05/11/update-leafcarebot-project.html"><![CDATA[<p>A FastAPI backend service that helps users diagnose plant diseases from images and provides gardening advice through an AI chatbot.</p>
+
+<p><a href="https://leafcarebot.onrender.com">Live API on Render</a>
+<a href="https://github.com/tantran1011/LeafCareBot.git">Source</a></p>
+
+<hr />
+
+<h2 id="-features">🚀 Features</h2>
+
+<ul>
+  <li>🌱 <strong>Plant Diagnosis</strong>: Upload a leaf image and detect potential diseases using AI models.</li>
+  <li>💬 <strong>AI Chatbot</strong>: Chat with an AI assistant for plant care tips.</li>
+  <li>🔒 <strong>Authentication</strong>: Register and login system with JWT token security.</li>
+  <li>🗄️ <strong>Database</strong>: PostgreSQL integration using SQLAlchemy and Alembic for migrations.</li>
+  <li>🌐 <strong>Deployment</strong>: Hosted on Render (free tier).</li>
+</ul>
+
+<hr />
+
+<h2 id="️-technologies-used">⚙️ Technologies Used</h2>
+
+<ul>
+  <li>Python 3.11</li>
+  <li>FastAPI</li>
+  <li>PostgreSQL</li>
+  <li>SQLAlchemy</li>
+  <li>Alembic</li>
+  <li>Pydantic</li>
+  <li>JWT Authentication</li>
+  <li>TensorFlow / PyTorch (for AI models)</li>
+  <li>Uvicorn (ASGI Server)</li>
+</ul>
+
+<hr />
+
+<h2 id="work-flow">Work FLow</h2>
+
+<p><img src="/assets/images/LeafCareWF.jpg" alt="LeafCareBot WorkFLow" /></p>
+
+<h2 id="️-getting-started">🛠️ Getting Started</h2>
+
+<h3 id="1-clone-the-repository">1. Clone the repository</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/tantran1011/LeafCareBot.git
+<span class="nb">cd </span>LeafCareBot
+</code></pre></div></div>
+
+<h3 id="2-install-dependencies">2. Install dependencies</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+</code></pre></div></div>
+
+<h3 id="3set-up-environment-variables-optional">3.Set up environment variables (Optional)</h3>
+
+<p>Create a .env file for secret keys, database URLs, etc. (if needed).</p>
+
+<h3 id="4-run-the-app-locally">4. Run the app locally</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uvicorn main:app <span class="nt">--reload</span>
+</code></pre></div></div>
+<p>The API will be available at: http://127.0.0.1:8000</p>
+
+<h2 id="-api-endpoints">📚 API Endpoints</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Endpoint</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>POST</td>
+      <td>/auth/register</td>
+      <td>Register a new user</td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>/auth/login</td>
+      <td>Login and receive JWT token</td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>/chat/chatbot</td>
+      <td>Send a message to the AI chatbot</td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>/diagnosis/diagnosis_plant</td>
+      <td>Upload a plant image for disease prediction</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can test the endpoints using Postman or directly through the Swagger UI: 👉 <a href="http://127.0.0.1:8000">Swagger UI</a></p>
+
+<h2 id="-frontend-optional">🎨 Frontend (Optional)</h2>
+
+<p>Basic index.html is available inside the static/ folder.
+In production, the root endpoint / will serve this page.</p>
+
+<h2 id="-future-improvements">✨ Future Improvements</h2>
+
+<ul>
+  <li>Add detailed disease care guides based on diagnosis results.</li>
+  <li>Improve chatbot’s understanding with fine-tuned models.</li>
+  <li>Create a full frontend UI for better user experience.</li>
+</ul>
+
+<h2 id="-contact">📬 Contact</h2>
+<ul>
+  <li>Name: Trần Đức Tân</li>
+  <li>GitHub: @tantran1011</li>
+  <li>LinkedIn: https://www.linkedin.com/in/tan-tran-duc-40bba7307/</li>
+</ul>]]></content><author><name>Trần Đức Tân</name><email>tantran1011@gmail.com</email></author><category term="Projects" /><category term="back-end" /><category term="python" /><category term="fastAPI" /><category term="postgreSQL" /><category term="AI" /><summary type="html"><![CDATA[A FastAPI backend service that helps users diagnose plant diseases from images and provides gardening advice through an AI chatbot.]]></summary></entry></feed>

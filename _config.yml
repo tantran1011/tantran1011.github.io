@@ -1,34 +1,28 @@
-title: "Trần Đức Tân"
-description: "Backend Developer | AI Enthusiast"
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "mint"
+remote_theme              : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin     : "mint"
 
-plugins:
-  - jekyll-include-cache
+# Site Setting
+locale                    : "en-US" 
+title                     : "Welcome To My Page"
+description               : "Backend Developer | AI Enthusiast"
+logo                      : "/assets/images/logo.jpg"
+masthead_title            : ""
+search_provider           : "lunr"
+lunr:
+  search_within_pages     : true
+algolia:
+  application_id          : "QB6HVGBSBA"
+  index_name              : "dev_minimal-mistakes"
+  search_only_api_key     : "9d5014e5bbc77372547bce778dfa5663"
+powered_by                : true
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
-
-sass:
-  sass_dir: _sass
-  style: compressed    
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-      author_profile: true
-
+# Site Author
 author:
-  name   : "Trần Đức Tân"
-  avatar : "/assets/images/avt.jpg"
-  bio    : "Backend Developer. Loves AI & Open Source."
-  location: "Vietnam"
-  email: "tantran1011@gmail.com"
+  name                    : "Trần Đức Tân"
+  avatar                  : "/assets/images/avt.jpg"
+  bio                     : "Backend Developer - AI Enthusiast"
+  location                : "Vietnam"
+  email                   : "tantran1011@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -39,6 +33,120 @@ author:
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/tan-tran-duc-40bba7307/"
 
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tantran1011"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"  
+
+# Liquid
+strict_front_matter: true
+liquid:
+  error_mode: strict
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed 
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
 
 # Navigation
 header:
@@ -51,5 +159,3 @@ nav:
     url: /about/
   - title: "Projects"
     url: /projects/
-
-custom_css: "/_sass/custom.css"

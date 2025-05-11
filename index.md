@@ -3,8 +3,5 @@ layout: home
 author_profile: true
 ---
 
-Xin chào, mình là **Trần Đức Tân**.  
-Mình là một Backend Developer và AI enthusiast. Đây là trang cá nhân của mình.
-
-[About Me](/about/)  
-[Projects](/projects/)
+Hello, I am here **Trần Đức Tân**. It's great to meet you
+I am a Backend Developer and AI enthusiast. This is [my personal profile](/about/)
