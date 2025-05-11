@@ -1,0 +1,26 @@
+title: "Trần Đức Tân"
+description: "Backend Developer | AI Enthusiast"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+
+author:
+  name   : "Trần Đức Tân"
+  avatar : "/assets/images/avt.jpg"
+  bio    : "Backend Developer. Loves AI & Open Source."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/tantran1011"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/tan-tran-duc-40bba7307/"
+
+# Hiển thị navigation
+nav:
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "CV"
+    url: /cv/
