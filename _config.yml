@@ -23,9 +23,20 @@ author:
 
 # Hiển thị navigation
 nav:
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "CV"
-    url: /cv/
+
+# Kết nối CSS
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      custom_css: "/assets/css/custom.scss"
