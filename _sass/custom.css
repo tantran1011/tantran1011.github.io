@@ -1,0 +1,7 @@
+body {
+  background-image: url('/assets/images/avt.jpg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+}

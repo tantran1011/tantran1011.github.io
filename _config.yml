@@ -1,6 +1,8 @@
 title: "Trần Đức Tân"
 description: "Backend Developer | AI Enthusiast"
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "mint"
+
 plugins:
   - jekyll-include-cache
 
@@ -9,11 +11,27 @@ collections:
     output: true
     permalink: /:path/
 
+sass:
+  sass_dir: _sass
+  style: compressed    
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
 author:
   name   : "Trần Đức Tân"
   avatar : "/assets/images/avt.jpg"
   bio    : "Backend Developer. Loves AI & Open Source."
+  location: "Vietnam"
+  email: "tantran1011@gmail.com"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/tantran1011"
@@ -21,7 +39,11 @@ author:
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/tan-tran-duc-40bba7307/"
 
-# Hiển thị navigation
+
+# Navigation
+header:
+  navigation: true
+
 nav:
   - title: "Home"
     url: /
@@ -30,13 +52,4 @@ nav:
   - title: "Projects"
     url: /projects/
 
-# Kết nối CSS
-sass:
-  style: compressed
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      custom_css: "/assets/css/custom.scss"
+custom_css: "/_sass/custom.css"
