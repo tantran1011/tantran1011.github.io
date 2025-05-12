@@ -1,52 +1,86 @@
 ---
 layout: single
-title: "About Me"
+title: "My Experiences"
 permalink: /about/
 # author_profile: true
 ---
 
-## 🧑‍🎓 Education
+## 🎓 Education
 
-**![University Logo](/assets/images/KHTN.png) University of Sciences, HCMUS**  
-*Bachelor of Engineering in Electronics and Telecommunication Technology*  
-📅 *2018 – 2022*  
-- Graduated with **Good** grade  
-- Capstone Project: Signal Processing & AI Application in Agriculture *(ECG-R peaks detection)*
+<table>
+  <tr>
+    <td style="width:90px; vertical-align: top;">
+      <img src="/assets/images/KHTN.png" alt="HCMUS Logo" width="70"/>
+    </td>
+    <td>
+      <strong>University of Sciences (HCMUS)</strong><br>
+      <em>Bachelor of Engineering in Electronics and Telecommunication Technology</em><br>
+      📅 <em>2018 – 2022</em><br>
+      - Graduated with <strong>Good</strong> grade.<br>
+      - <strong>Capstone Project:</strong> Signal Processing & AI Application in Agriculture (ECG-R peaks detection).
+    </td>
+  </tr>
+</table>
 
----
+
 
 ## 🧠 Learning & Skills Development
 
 **📌 Period: 2022 – Present**
 
-- ✅ Completed 115/115 Python problems on HackerRank (Problem Solving, Basic to Advanced Logic)  
-- ⚙️ Proficient in Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker  
-- 🔧 Experienced with Git, RESTful API design, clean project structure, basic CI/CD  
-- 🤖 Applied AI in backend systems (Machine Learning, NLP, Computer Vision)  
-- 🚀 Built multiple real-world projects (see Projects section)
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%;">
+      <strong>Key Milestones</strong><br>
+      - Completed 115/115 Python problems on HackerRank<br>
+      - Built multiple real-world projects (see Projects section)<br>
+      - Applied AI in backend systems (ML, NLP, CV)
+    </td>
+    <td style="vertical-align: top; width: 50%;">
+      <strong>Technical Stack</strong><br>
+      - Python, FastAPI, PostgreSQL<br>
+      - SQLAlchemy, Alembic, Docker<br>
+      - Git, RESTful APIs, CI/CD basics
+    </td>
+  </tr>
+</table>
 
----
+
 
 ## 👨‍💻 Work Experience
 
-**![Alta Logo](/assets/images/Alta.jpg) AI Developer Intern — Alta Software**  
-📍 *04/2023 – 12/2024*  
-- Trash Classification: Labeled datasets, trained YOLOv8 for detection
-& classification.
-- Object Recognition: Developed YOLOv8 models, integrated Flask
-API.
-- Emotion Analysis with NLP: Used Hugging Face, converted models
-to ONNX, implemented DistilBERT.
-- Tech Stack: TensorFlow, PyTorch, Transformers.
+<table>
+  <tr>
+    <td style="width:90px; vertical-align: top;">
+      <img src="/assets/images/Alta.jpg" alt="Alta Logo" width="70"/>
+    </td>
+    <td>
+      <strong>AI Developer Intern — Alta Software</strong><br>
+      📍 <em>04/2023 – 12/2024</em><br>
+      - Trash Classification: Labeled datasets, trained YOLOv8 for detection & classification.<br>
+      - Object Recognition: Developed YOLOv8 models, integrated Flask API.<br>
+      - Emotion Analysis with NLP: Used Hugging Face, converted models to ONNX, implemented DistilBERT.<br>
+      - <strong>Tech Stack:</strong> TensorFlow, PyTorch, Transformers.
+    </td>
+  </tr>
+</table>
 
-**![ITRVN Logo](/assets/images/ITR.png) AI Engineer — ITR Vietnam**  
-📍 *02/2022 – 12/2023*  
-- Developed AI algorithms for ECG signal processing and event
-detection. Implemented clustering, BWR, normalization techniques
-for ECG data.
-- Tech Stack: TensorFlow, Scikit-learn, PyTorch.
+<br>
 
----
+<table>
+  <tr>
+    <td style="width:90px; vertical-align: top;">
+      <img src="/assets/images/ITR.png" alt="ITRVN Logo" width="70"/>
+    </td>
+    <td>
+      <strong>AI Engineer — ITR Vietnam</strong><br>
+      📍 <em>02/2022 – 12/2023</em><br>
+      - Developed AI algorithms for ECG signal processing and event detection.<br>
+      - Implemented clustering, BWR, and normalization techniques for ECG data.<br>
+      - <strong>Tech Stack:</strong> TensorFlow, Scikit-learn, PyTorch.
+    </td>
+  </tr>
+</table>
 
 ## 🎯 Career Objective
 
