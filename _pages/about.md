@@ -5,7 +5,7 @@ permalink: /about/
 # author_profile: true
 ---
 
-o## 🧑‍🎓 Education
+## 🧑‍🎓 Education
 
 **🎓 University of Sciences, HCMUS**  
 *Bachelor of Engineering in Electronics and Telecommunication Technology*  
