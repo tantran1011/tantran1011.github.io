@@ -5,8 +5,8 @@ var store = [{
         "url": "/about/",
         "teaser": null
       },{
-        "title": "Projects",
-        "excerpt":"🧠 LeafCareBot  GitHub  AI chatbot phân loại bệnh trên lá cây, kết hợp Computer Vision và NLP để đưa ra lời khuyên chăm sóc cây trồng.     ☕ CoffeeBeanOnTrees  GitHub  Prototype dự đoán sản lượng cà phê dựa trên hình ảnh và metadata, kết hợp LLM + Supabase + FastAPI.  ","categories": [],
+        "title": "Practice Projects",
+        "excerpt":"This page showcases personal practice projects that I’ve built and refined throughout my learning journey in AI and Backend development. 🥉 Skin Disease Classification 🔗 GitHub Repository 📌 Task: Classify various types of skin diseases from images. 🧠 Model: Fine-tuned ResNet50 pretrained on ImageNet. 🧪 Result: Achieved 97% validation accuracy....","categories": [],
         "tags": [],
         "url": "/projects/",
         "teaser": null
@@ -20,6 +20,6 @@ var store = [{
     "title": "My Experiences",
     "excerpt":"🎓 Education University of Sciences (HCMUS) Bachelor of Engineering in Electronics and Telecommunication Technology 📅 2018 – 2022 - Graduated with Good grade. - Capstone Project: Signal Processing &amp; AI Application in Agriculture (ECG-R peaks detection). 🧠 Learning &amp; Skills Development 📌 Period: 2022 – Present Key Milestones - Completed...","url": "http://localhost:4000/about/"
   },{
-    "title": "Projects",
-    "excerpt":"🧠 LeafCareBot  GitHub  AI chatbot phân loại bệnh trên lá cây, kết hợp Computer Vision và NLP để đưa ra lời khuyên chăm sóc cây trồng.     ☕ CoffeeBeanOnTrees  GitHub  Prototype dự đoán sản lượng cà phê dựa trên hình ảnh và metadata, kết hợp LLM + Supabase + FastAPI.  ","url": "http://localhost:4000/projects/"
+    "title": "Practice Projects",
+    "excerpt":"This page showcases personal practice projects that I’ve built and refined throughout my learning journey in AI and Backend development. 🥉 Skin Disease Classification 🔗 GitHub Repository 📌 Task: Classify various types of skin diseases from images. 🧠 Model: Fine-tuned ResNet50 pretrained on ImageNet. 🧪 Result: Achieved 97% validation accuracy....","url": "http://localhost:4000/projects/"
   }]
