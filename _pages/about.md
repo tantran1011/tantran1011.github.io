@@ -7,7 +7,7 @@ permalink: /about/
 
 ## 🧑‍🎓 Education
 
-**🎓 University of Sciences, HCMUS**  
+**![University Logo](/assets/images/KHTN.png) University of Sciences, HCMUS**  
 *Bachelor of Engineering in Electronics and Telecommunication Technology*  
 📅 *2018 – 2022*  
 - Graduated with **Good** grade  
@@ -29,17 +29,17 @@ permalink: /about/
 
 ## 👨‍💻 Work Experience
 
-**💼 AI Developer Intern — Alta Software**  
+**![Alta Logo](/assets/images/Alta.jpg) AI Developer Intern — Alta Software**  
 📍 *04/2023 – 12/2024*  
-- Trash Classi«cation: Labeled datasets, trained YOLOv8 for detection
-& classi«cation.
+- Trash Classification: Labeled datasets, trained YOLOv8 for detection
+& classification.
 - Object Recognition: Developed YOLOv8 models, integrated Flask
 API.
 - Emotion Analysis with NLP: Used Hugging Face, converted models
 to ONNX, implemented DistilBERT.
 - Tech Stack: TensorFlow, PyTorch, Transformers.
 
-**💼 AI Engineer — ITR Vietnam**  
+**![ITRVN Logo](/assets/images/ITR.png) AI Engineer — ITR Vietnam**  
 📍 *02/2022 – 12/2023*  
 - Developed AI algorithms for ECG signal processing and event
 detection. Implemented clustering, BWR, normalization techniques
